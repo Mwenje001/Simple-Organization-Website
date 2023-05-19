@@ -5,7 +5,7 @@ const selectElement = (selector) => {
     throw new Error(`Something went wrong! Make sure that ${selector} exists/is typed correctly.`);  
 };
 
-//Nav styles on scroll
+//Nav styles on scroll to be addressed
 const scrollHeader = () =>{
     const navbarElement = selectElement('#header');
     if(this.scrollY >= 15) {
